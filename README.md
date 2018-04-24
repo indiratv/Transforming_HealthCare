@@ -13,7 +13,7 @@ Some examples are:
         4. Monitoring Emerging infectious Diseases using data analytics.
         
 
-[View the application.](https://suvithala.github.io/Tansforming_HealthCare/)
+[View the application.](https://suvithala.github.io/Transforming_HealthCare/)
 
 The front end uses elements from Bootstrap.
 
