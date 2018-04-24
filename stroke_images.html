@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 	<meta charset="UTF-8">
+  	<title>Healthcare Analytics</title>
+  	<!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="static/reset.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<!-- Reset style sheet -> reset the styling of all HTML elements to a consistent baseline -->
+	
+	<!-- Landing page style sheet -->
+  	<link rel="stylesheet" href="static/style.css">
+</head>
+
+<body >
+  
+  <nav class="navbar navbar-expand-lg navbar-default">
+    <div class="container-fluid">
+      <h1 align = "center">Transforming Healthcare</h1>
+      <div class="navbar-header" >
+
+        <h2><a href="index.html" class="navbar-brand" id="border-temp">Home</a></h2>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+
+      <div class="nav navbar-nav navbar-right">
+        <span class="caret"></span>
+        <li><a href="stroke_images.html" id="border-temp">Diagnostic <BR>Medicine</a></li>&nbsp;&nbsp;
+        <li><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" id="border-temp">Preventative<BR> Medicine</a></li>&nbsp;&nbsp;
+        <li><a href="insurance.html" id="border-temp">Health <BR>Insurance</a></li>
+      </div>
+  </nav>
+<div class="container">
+<div class="row">
+
+      <div class="col-md-12">
+         <h2 class="header-line">Diagnostic Medicine</h2>
+      </div>
+
+    </div><BR>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <figure>
+            <img class = "img-responsive" src= "images/ScoreDatasetsize.png" alt = "Score Dataset size"></a> 
+        </figure> 
+      </div>
+      <div class="col-md-6">
+        <figure>
+            <img class = "img-responsive" src= "images/StDevDatasize.png" alt = "St Dev Dataset size"></a> 
+        </figure> 
+      </div>
+    </div><BR><BR><BR>
+    <div class="row">
+      <div class="col-md-10">
+          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong> The plots show how the average score and standard deviation vary with dataset size. Three dataset sizes with 43400, 3260 and 433 records were used. The average score increases and standard deviation decreases with increasing data size.</p>
+      </div> 
+
+    </div><BR><BR><BR>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <figure>
+            <img class = "img-responsive" src= "images/Score_train_test_size.png" alt = "StDev_train_test_size.png"></a> 
+        </figure> 
+      </div>
+      <div class="col-md-6">
+        <figure>
+            <img class = "img-responsive" src= "images/StDev_train_test_size.png" alt = "St Dev train test size"></a> 
+        </figure> 
+      </div>
+    </div><BR><BR><BR>
+    <div class="row">
+      <div class="col-md-10">
+          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong> The plots show how the average score and standard deviation vary with various train/test data combinations for the six ML models. The score is nearly constant for various combinations, whereas, standard deviation is highest for 40%/60% combination. 10%/90% and 20%/80% are the best combinations.</p>
+      </div> 
+
+    </div><BR><BR><BR>
