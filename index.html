@@ -19,8 +19,8 @@
   
   <nav class="navbar navbar-expand-lg navbar-default">
     <div class="container-fluid">
-      <h1 align = "center">Transforming Healthcare</h1>
-      <div class="navbar-header" >
+      <h1 align = "center">Transforming Healthcare and Insurance</h1>
+      <div class="navbar-header">
 
         <h2><a href="index.html" class="navbar-brand" id="border-temp">Home</a></h2>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -32,9 +32,9 @@
       </div>
 
       <div class="nav navbar-nav navbar-right">
-        <span class="caret"></span>
-        <li><a href="stroke_images.html" id="border-temp">Diagnostic <BR>Medicine</a></li>&nbsp;&nbsp;
-        <li><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" id="border-temp">Preventative<BR> Medicine</a></li>&nbsp;&nbsp;
+        <!-- <span class="caret"></span> -->
+        <li><a href="stroke_images.html" id="border-temp">Diagnostic<BR>Medicine</a>&nbsp;&nbsp;</li>
+        <li><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" id="border-temp">Preventative<BR> Medicine</a>&nbsp;&nbsp;</li>
         <li><a href="insurance.html" id="border-temp">Health <BR>Insurance</a></li>
       </div>
   </nav>
@@ -42,15 +42,22 @@
 
   <div class="container"> 
 
-  <P style = "color: grey; font-weight: solid; font-size: 18px"><strong>
+  <div class="row">
+    <div class="col-md-4"> 
+      <figure>
+            <img class = "img-responsive" src= "https://thumbs.gfycat.com/SlowShadyAntlion-size_restricted.gif" alt = "Heart Beat"></a> 
+      </figure> 
+    </div>
+    <div class="col-md-7">
+      <P style = "color: grey; font-weight: solid; font-size: 18px"><strong>
       The purpose of this project was to analyze how machine learning and big data is changing healthcare industry. One way they’ve been able to accomplish this is by leveraging innovative machine learning (ML) algorithms that can operate without human intervention. Some examples are:</strong><BR>
       &nbsp;&nbsp;&nbsp;&nbsp;1. Machine Learning in the Rapid Detection of Cancer<BR>
       &nbsp;&nbsp;&nbsp;&nbsp;2. Machine Learning in the Discovery of New Drugs<BR>
-      &nbsp;&nbsp;&nbsp;&nbsp;3. Machine Learning in Automatic Recommendation or Treatment or for diagnostic purpose.<BR>
+      &nbsp;&nbsp;&nbsp;&nbsp;3. Machine Learning in Automatic Recommendation or Treatment <br>
       &nbsp;&nbsp;&nbsp;&nbsp;4. Monitoring Emerging infectious Diseases using data analytics.<BR>
-  </P>
-
-
+    </P>
+    </div><br>
+  </div>
 		<div class="row">
       <h2 class="header-line">Monitoring Emerging Infectious Diseases:</h1>
         <div class="col-md-7" id = "my-div" >
@@ -102,14 +109,14 @@
       </div>
 
       <div class="col-md-8">
-          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1">Preventive Medicine:</a> </u></strong>
+          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" target="_blank">Preventive Medicine:</a> </u></strong>
                 Perform risk-adjusted comparisons.<BR>
                 Do trend analysis following Nelson rules.<BR>
                 Improve sparse data via longitudinal imputation.<BR>
                 Fill in missing data via imputation.<BR>
                 Deploy a model to produce daily predictions.<BR><BR>
                 Write predictions back to a database.<BR>
-                Learn what factors drive each prediction.&nbsp;<a href="RandomForestModel.html" class="button">Code</a></p>
+                Learn what factors drive each prediction.&nbsp;<a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance-Dashboard2/Dashboard2" target="_blank" class="button">Code</a></p>
       </div> 
 
     </div><BR><BR><BR>
@@ -125,14 +132,14 @@
 
       <div class="col-md-8">
 
-        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="stroke_images.html">Diagnostic Medicine:</a> </u></strong>
+        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="stroke_images.html" target="_blank">Diagnostic Medicine:</a> </u></strong>
             Created and compared six models based on our data.<BR>
             Models used were:<BR>
             Logistic Regression, Decision Tree Classifier, K Neighbors, SVC, Linear Discriminant Analysis and Gaussian NB<BR>
             Stroke data with 43400 records, heart disease with 303 records, hepatitis with 305 records and Parkinsons disease with 195 records were used.<BR>
             Accuracy score for training and testing data was generated and best model for each disease was identified to predict the outcome. Learned what factors drive each prediction.<BR>
             Stroke data was truncated to 3260 and 434 records to study the effect of record size. Comparison plots were generated. Large data size(>10k) provided better results.<BR> 
-            Stroke data with 4300 records was also used to study the effect of 10/90, 20/80, 30/70 and 40/60 split of dataset into test/train data. Comparison plots generated. &nbsp;<a href="stroke.html" class="button">Code</a>
+            Stroke data with 4300 records was also used to study the effect of 10/90, 20/80, 30/70 and 40/60 split of dataset into test/train data. Comparison plots generated. &nbsp;<a href="stroke.html" target="_blank" class="button">Code</a>
         </p>
       </div>
 

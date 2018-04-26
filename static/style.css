@@ -1,6 +1,7 @@
 body {
-	font-size: 14px;
-	background-color: #EEEEEE
+  font-size: 14px;
+  background-color: #FFFAF0;
+  font-family: "Helvetica"
 
 }
 
@@ -90,6 +91,9 @@ h2 {
     width    : 450px;
     height   : 1200px;
 }
+
+
+.navbar {min-height:32px !important}
 
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
