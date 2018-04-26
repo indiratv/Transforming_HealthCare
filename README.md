@@ -15,11 +15,17 @@ Some examples are:
 
 [View the application.](https://suvithala.github.io/Transforming_HealthCare/)
 
-The front end uses elements from Bootstrap.
+The front end uses elements from Bootstrap and javascript.
 
 Tableau was used as visualization tool.
 
-Machine learning models were built using Python.
+Machine learning models were built using Python and matplotlib for graphs.
+
+Data:
+
+	1. CDC
+	2. Kaggle
+
 
 Contributors:
 

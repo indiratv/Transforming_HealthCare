@@ -33,7 +33,7 @@
 
       <div class="nav navbar-nav navbar-right">
         <li><a href="stroke_images.html" id="border-temp" target="_blank">Diagnostic <BR>Medicine</a></li>&nbsp;&nbsp;
-        <li><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" id="border-temp" target="_blank">Preventative<BR> Medicine</a></li>&nbsp;&nbsp;
+        <li><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" id="border-temp" target="_blank">Preventative<BR> Care</a></li>&nbsp;&nbsp;
         <li><a href="insurance.html" id="border-temp" target="_blank">Health <BR>Insurance</a></li>
       </div>
   </nav>
@@ -112,14 +112,17 @@
       </div>
 
       <div class="col-md-8">
-          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" target="_blank">Preventive Medicine:</a> </u></strong><BR>
-                Perform risk-adjusted comparisons.<BR>
-                Do trend analysis following Nelson rules.<BR>
-                Improve sparse data via longitudinal imputation.<BR>
-                Fill in missing data via imputation.<BR>
-                Deploy a model to produce daily predictions.<BR><BR>
-                Write predictions back to a database.<BR>
-                Learn what factors drive each prediction.&nbsp;<a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance-Dashboard2/Dashboard2" target="_blank" class="button">Code</a></p>
+          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" target="_blank">Preventive Care:</a> </u></strong><BR>
+            Performed a deep classification analysis on cardiovascular disease and its associated risk factors.<BR>
+            The analysis was performed based on age, gender, race, and topics related to types of cardiovascular disease and stroke.<BR>
+            Cluster Analysis on various risk factors for e.g. Cholesterol abnormalities, physical inactivity, obesity, hypertension, smoking, diabetes and others over the period of 5 years.<BR>
+            Heatmap on risk score based on several breakout categories (age, race, gender, etc…)<BR><BR>
+            
+            Machine Learning  Model (Randomforest Algorithm based on Decision Tree)<BR>
+            Used a Randomforest Algorithm to predict stroke based on randomly created decision tree based on several classifiers (e.g. age, gender, hypertension, hear disease. marital status, work type, residence, average glucose level)<BR>
+            Used a dataset from CDC of approx. 45K rows over 5 years with multiple classifiers (features)<BR>
+            Predicted randomforest classifier score and generated a decision tree
+            Sorted each feature by their respective score.&nbsp;<a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance-Dashboard2/Dashboard2" target="_blank" class="button">Code</a></p>
       </div> 
 
     </div><BR><BR><BR>
@@ -135,9 +138,8 @@
 
       <div class="col-md-8">
 
-        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="stroke_images.html" target="_blank">Disease Identification/Diagnosis:</a> </u></strong>
-            Created and compared six models based on our data.<BR>
-            Models used were:<BR>
+        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="stroke_images.html" target="_blank">Disease Identification/Diagnosis:</a> </u></strong><BR>
+            Created and compared six models based on our data. Models used were:<BR>
             Logistic Regression, Decision Tree Classifier, K Neighbors, SVC, Linear Discriminant Analysis and Gaussian NB<BR>
             Stroke data with 43400 records, heart disease with 303 records, hepatitis with 305 records and Parkinsons disease with 195 records were used.<BR>
             Accuracy score for training and testing data was generated and best model for each disease was identified to predict the outcome. Learned what factors drive each prediction.<BR>
