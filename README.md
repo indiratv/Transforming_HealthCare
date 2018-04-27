@@ -21,10 +21,18 @@ Tableau was used as visualization tool.
 
 Machine learning models were built using Python and matplotlib for graphs.
 
-Data:
+Pandas
+Numpy
+Matplotlib
+keras.utils
+sklearn.model_selection
+
+
+Data Source:
 
 	1. CDC
 	2. Kaggle
+	3. UCI
 
 
 Contributors:
