@@ -52,17 +52,46 @@ h2 {
 }
 
 #border-temp	{
-	border:	2px solid #00CED1;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border:	2px solid #00CED1;
 	background-color:	#337ab7;
 	color: white;
 }
 
-#border-comparison	{
-	border:	3px solid #00CED1;
-  margin-top: 40px;
-	background-color:	#00CED1;
-	color: white;
+
+.highlight {color: #337ab7}
+/*a:link {
+  font-size: 1.2em;
+  
+   color: #337ab7;
+}*/
+
+/* visited link */
+/*a:visited {
+  font-size: 1em;
+  font-family: fantasy;
+  font-style: italic;
+  color: green;
 }
+
+/* mouse over link */
+/*a:hover {
+  font-size: 1.6em;
+  font-family: fantasy;
+  font-style: italic;
+ 
+    color: hotpink;
+}*/
+
+/* selected link */
+/*a:active {
+  font-size: 1.6em;
+  font-family: fantasy;
+  font-style: italic;
+
+  color: red;
+}*/
 
 .fig-blue-border	{
 	border: 1.5px solid #00CED1;
