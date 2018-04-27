@@ -19,13 +19,19 @@ The front end uses elements from Bootstrap and javascript.
 
 Tableau was used as visualization tool.
 
-Machine learning models were built using Python and matplotlib for graphs.
+Machine learning models were built using:
 
-Pandas
-Numpy
-Matplotlib
-keras.utils
-sklearn.model_selection
+	Python
+	
+	Pandas
+	
+	Numpy
+	
+	Matplotlib
+	
+	keras.utils
+	
+	sklearn.model_selection
 
 
 Data Source:
