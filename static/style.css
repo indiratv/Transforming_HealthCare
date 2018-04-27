@@ -61,37 +61,12 @@ h2 {
 
 
 .highlight {color: #337ab7}
-/*a:link {
-  font-size: 1.2em;
-  
-   color: #337ab7;
-}*/
 
-/* visited link */
-/*a:visited {
-  font-size: 1em;
-  font-family: fantasy;
-  font-style: italic;
-  color: green;
-}
-
-/* mouse over link */
-/*a:hover {
-  font-size: 1.6em;
-  font-family: fantasy;
-  font-style: italic;
- 
-    color: hotpink;
-}*/
-
-/* selected link */
-/*a:active {
-  font-size: 1.6em;
-  font-family: fantasy;
-  font-style: italic;
-
-  color: red;
-}*/
+li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: square;
+ }
 
 .fig-blue-border	{
 	border: 1.5px solid #00CED1;

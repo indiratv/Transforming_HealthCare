@@ -2,23 +2,27 @@
 <html lang="en">
 
 <head>
- 	<meta charset="UTF-8">
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ 
   	<title>ML in Healthcare Analytics</title>
   	<!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="static/reset.css">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<!-- Reset style sheet -> reset the styling of all HTML elements to a consistent baseline -->
-	
+	   
+
+
 	<!-- Landing page style sheet -->
   	<link rel="stylesheet" href="static/style.css">
+    
+
 </head>
 
 <body >
   
   <nav class="navbar navbar-expand-lg navbar-default">
-    <div class="container-fluid">
+    <!-- <div class="container-fluid"> -->
       <!-- <h1 align = "center">Transforming Healthcare</h1> -->
       <div class="navbar-header" >
 
@@ -39,73 +43,72 @@
   </nav>
 
 
-  <div class="container"> 
+<div class="container"> 
 
   <div class="row">
     <div class="col-md-5"> 
       <figure>
         <video autoplay muted loop id="myVideo" height ="240" width ="340">
           <source src="images/HeartBeats.mp4" type="video/mp4">
-          </video>
-        </a> 
+        </video>
       </figure> 
     </div>
     <div class="col-md-7">
-      <P style = "color: grey; font-weight: solid; font-size: 15px"><strong>Diagnosis, treatment, and prevention are all huge problems that are based in part on plentiful data, and their improvement represents incalculable value. <BR>
+      <p style = "color: grey; font-weight: solid; font-size: 15px"><strong>Diagnosis, treatment, and prevention are all huge problems that are based in part on plentiful data, and their improvement represents incalculable value. <BR>
       The purpose of this project was to analyze how machine learning and big data is changing healthcare industry. One way they’ve been able to accomplish this is by leveraging innovative machine learning (ML) algorithms that can operate without human intervention. Some examples are:</strong><BR>
-      &nbsp;&nbsp;&nbsp;&nbsp;1. Machine Learning in the Rapid Detection of Cancer<BR>
-      &nbsp;&nbsp;&nbsp;&nbsp;2. Machine Learning in the Discovery of New Drugs<BR>
-      &nbsp;&nbsp;&nbsp;&nbsp;3. Machine Learning in Automatic Recommendation or Treatment <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;4. Monitoring Emerging infectious Diseases using data analytics.<BR>
-    </P>
-    </div><br>
-  </div>
-		<div class="row">
-      <h2 class="header-line">Epidemic Outbreak Prediction:</h1>
-        <div class="col-md-7" id = "my-div" >
-
-          <iframe src="https://www.promedmail.org" align = "left" id = "my-iframe" scrolling="no"></iframe>
-          
-        </div> 
-
-        <div class="col-md-2"> </div> 
-
-        <div class="col-md-3">
-          <p style ="text-align: justify;color: grey; font-weight: solid">
-              1. Promed-mail is an Internet-based reporting system dedicated to rapid global dissemination of information on outbreaks of infectious diseases and acute exposures to toxins that affect human health, including those in animals and in plants grown for food or animal feed. <BR><BR>
-              2. By providing early warning of outbreaks of emerging and re-emerging diseases, public health precautions at all levels can be taken in a timely manner to prevent epidemic transmission and to save lives.<BR><BR>
-              3. A central purpose of ProMED is to promote communication amongst the international infectious disease community, including scientists, physicians, epidemiologists, public health professionals, and others interested in infectious diseases on a global scale.  </p>
-        </div>
-
-    </div><BR><BR>
-
-    <div class="row">
-
-		  <div class="col-md-12">
-		     <h2 class="header-line">Machine Learning Models & Visualizations in other areas of HealthCare</h2>
-      </div>
-
+      <ul>
+        <li>Machine Learning in the Rapid Detection of Cancer.</li>
+        <li>Machine Learning in the Discovery of New Drugs.</li>
+        <li>Machine Learning in Automatic Recommendation or Treatment.</li>
+        <li>Monitoring Emerging infectious Diseases using data analytics.</li>
+      </ul></p>
     </div><BR>
+  </div>
 
-    <div class="row">
+	<div class="row">
 
-      <div class="col-md-4">
+    <h2 class="header-line">Epidemic Outbreak Prediction:</h2>
+    <div class="col-md-7" id = "my-div" >
+      <iframe src="https://www.promedmail.org" align = "left" id = "my-iframe" scrolling="no"></iframe>
+    </div> 
+
+    <div class="col-md-2"> </div> 
+
+    <div class="col-md-3">
+      <p style ="text-align: justify;color: grey; font-weight: solid">
+          1. Promed-mail is an Internet-based reporting system dedicated to rapid global dissemination of information on outbreaks of infectious diseases and acute exposures to toxins that affect human health, including those in animals and in plants grown for food or animal feed. <BR><BR>
+          2. By providing early warning of outbreaks of emerging and re-emerging diseases, public health precautions at all levels can be taken in a timely manner to prevent epidemic transmission and to save lives.<BR><BR>
+          3. A central purpose of ProMED is to promote communication amongst the international infectious disease community, including scientists, physicians, epidemiologists, public health professionals, and others interested in infectious diseases on a global scale.  </p>
+    </div>
+
+  </div> <BR><BR>
+
+  <div class="row">
+
+	  <div class="col-md-12">
+	    <h2 class="header-line">Machine Learning Models & Visualizations in other areas of HealthCare</h2>
+    </div>
+
+  </div><BR>
+
+  <div class="row">
+    <div class="col-md-4">
         <figure>
-            <img class = "img-responsive" src= "images/imaging.jpg" alt = "Medical Imaging"></a> 
+          <img class = "img-responsive" src= "images/imaging.jpg" alt = "Medical Imaging">
         </figure> 
-      </div>
+    </div>
 
-      <div class="col-md-8">
-          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><span class="highlight">Diagnosis and Medical Imaging:</span> </u></strong><BR>
-              Recently there has been a new surge in developing machine learning applications in the analysis of medical imaging.<br>
-              One common examples is the use of Convolutional Neural Networks (CNN). <BR>
-              CNNs have been trained to be able to analyze each individual voxel in a patient’s 3-Dimensional MRI scan to determine which areas of the image contain pathological findings (tumor, sclerosis, ischemia, etc.) and which do not.<br>
-              Successful implementation of these type of algorithms will facilitate both faster and finer detection of dangerous diseases.</p>
-      </div> 
+    <div class="col-md-8">
+        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><span class="highlight">Diagnosis and Medical Imaging:</span> </u></Strong><BR>
+           Recently there has been a new surge in developing machine learning applications in the analysis of medical imaging.<br>
+           One common examples is the use of Convolutional Neural Networks (CNN). <BR>
+           CNNs have been trained to be able to analyze each individual voxel in a patient’s 3-Dimensional MRI scan to determine which areas of the image contain pathological findings (tumor, sclerosis, ischemia, etc.) and which do not.<BR>
+           Successful implementation of these type of algorithms will facilitate both faster and finer detection of dangerous diseases.</p>
+    </div> 
 
-    </div><BR><BR><BR>
+  </div><BR><BR><BR>
 
-    <div class="row">
+  <div class="row">
 
      	<div class="col-md-4">
      	  <figure>
@@ -115,17 +118,21 @@
       </div>
 
       <div class="col-md-8">
-          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" target="_blank" >Preventive Care:</a> </u></strong><BR>
-            Performed a deep classification analysis on cardiovascular disease and its associated risk factors.<BR>
-            The analysis was performed based on age, gender, race, and topics related to types of cardiovascular disease and stroke.<BR>
-            Cluster Analysis on various risk factors for e.g. Cholesterol abnormalities, physical inactivity, obesity, hypertension, smoking, diabetes and others over the period of 5 years.<BR>
-            Heatmap on risk score based on several breakout categories (age, race, gender, etc…)<BR><BR>
-            
-            Machine Learning  Model (Randomforest Algorithm based on Decision Tree)<BR>
-            Used a Randomforest Algorithm to predict stroke based on randomly created decision tree based on several classifiers (e.g. age, gender, hypertension, hear disease. marital status, work type, residence, average glucose level)<BR>
-            Used a dataset from CDC of approx. 45K rows over 5 years with multiple classifiers (features)<BR>
-            Predicted randomforest classifier score and generated a decision tree
-            Sorted each feature by their respective score.&nbsp;<a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance-Dashboard2/Dashboard2" target="_blank" class="button">Code</a></p>
+          <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance/Dashboard1" target="_blank" >Preventive Care:</a> </u></Strong><BR>
+            <ul>
+              <li>Performed a deep classification analysis on cardiovascular disease and its associated risk factors.</li>
+              <li>The analysis was performed based on age, gender, race, and topics related to types of cardiovascular disease and stroke.</li>
+              <li> Cluster Analysis on various risk factors for e.g. Cholesterol abnormalities, physical inactivity, obesity, hypertension, smoking, diabetes and others over the period of 5 years.</li>
+              <li>  Heatmap on risk score based on several breakout categories (age, race, gender, etc…)</li><BR>
+            </ul>    
+              Machine Learning  Model (Randomforest Algorithm based on Decision Tree)<BR>
+            <ul>
+              <li>Used a Randomforest Algorithm to predict stroke based on randomly created decision tree based on several classifiers (e.g. age, gender, hypertension, hear disease. marital status, work type, residence, average glucose level)</li>
+              <li>Used a dataset from CDC of approx. 45K rows over 5 years with multiple classifiers (features)</li>
+              <li>Predicted randomforest classifier score and generated a decision tree</li>
+              <li>Sorted each feature by their respective score.&nbsp;<a href="https://public.tableau.com/profile/ash3562#!/vizhome/DataScienceTransformingHealthcareandInsurance-Dashboard2/Dashboard2" target="_blank" class="button">Code</a>
+              </li>
+            </ul></p>
       </div> 
 
     </div><BR><BR><BR>
@@ -141,14 +148,15 @@
 
       <div class="col-md-8">
 
-        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="stroke_images.html" target="_blank">Disease Identification/Diagnosis:</a> </u></strong><BR>
-            Created and compared six models based on our data. Models used were:<BR>
-            Logistic Regression, Decision Tree Classifier, K Neighbors, SVC, Linear Discriminant Analysis and Gaussian NB<BR>
-            Stroke data with 43400 records, heart disease with 303 records, hepatitis with 305 records and Parkinsons disease with 195 records were used.<BR>
-            Accuracy score for training and testing data was generated and best model for each disease was identified to predict the outcome. Learned what factors drive each prediction.<BR>
-            Stroke data was truncated to 3260 and 434 records to study the effect of record size. Comparison plots were generated. Large data size(>10k) provided better results.<BR> 
-            Stroke data with 4300 records was also used to study the effect of 10/90, 20/80, 30/70 and 40/60 split of dataset into test/train data. Comparison plots generated. &nbsp;<a href="stroke.html" target="_blank" class="button">Code</a>
-        </p>
+        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="stroke_images.html" target="_blank">Disease Identification/Diagnosis:</a> </u></Strong><BR>
+          <ul>
+            <li>Created and compared six models based on our data. Models used were:</li>
+            <li>Logistic Regression, Decision Tree Classifier, K Neighbors, SVC, Linear Discriminant Analysis and Gaussian NB</li>
+            <li>Stroke data with 43400 records, heart disease with 303 records, hepatitis with 305 records and Parkinsons disease with 195 records were used.</li>
+            <li>Accuracy score for training and testing data was generated and best model for each disease was identified to predict the outcome. Learned what factors drive each prediction.</li>
+            <li>Stroke data was truncated to 3260 and 434 records to study the effect of record size. Comparison plots were generated. Large data size(>10k) provided better results.</li> 
+            <li>Stroke data with 4300 records was also used to study the effect of 10/90, 20/80, 30/70 and 40/60 split of dataset into test/train data. Comparison plots generated. &nbsp;<a href="stroke.html" target="_blank" class="button">Code</a></li>
+          </ul></p>
       </div>
 
     </div><BR><BR><BR>
@@ -163,7 +171,7 @@
       </div> 
 
       <div class="col-md-8">
-        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="stroke.html" target="_blank">Insurance:&nbsp;</a></u></strong><BR>
+        <p style ="text-align: justify;color: grey; font-weight: solid"><Strong><u><a href="stroke.html" target="_blank">Insurance:&nbsp;</a></u></Strong><BR>
               Customers provide extensive information to identify risk classification and eligibility, including scheduling medical exams, a process that takes an average of 30 days.<BR>
               The result? People are turned off. That’s why only 40% of U.S. households own individual life insurance.<BR>
               Prudential wants to make it quicker and less labor intensive for new and existing customers to get a quote while maintaining privacy boundaries.<BR>
@@ -173,8 +181,8 @@
 
     </div>
 
- 	</div> 
-
+ 
+ </div>
 </body>
 </html>
 
