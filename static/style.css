@@ -7,7 +7,8 @@ body {
 
 h1 {
 	font-size: 2.6em;
-	color:	#00CED1;
+	font-family: fantasy;
+  font-style: italic;
 	margin-bottom: 40px;
 	text-align: center;
 	font-weight: solid
@@ -15,7 +16,9 @@ h1 {
 
 h2 {
 	font-size: 1.6em;
-	color:	#00CED1;
+	font-family: fantasy;
+  font-style: italic;
+  color: #337ab7;
 	margin-bottom: 40px;
 	text-align: left;
 	font-weight: solid
@@ -50,12 +53,13 @@ h2 {
 
 #border-temp	{
 	border:	2px solid #00CED1;
-	background-color:	#00CED1;
+	background-color:	#337ab7;
 	color: white;
 }
 
 #border-comparison	{
 	border:	3px solid #00CED1;
+  margin-top: 40px;
 	background-color:	#00CED1;
 	color: white;
 }
